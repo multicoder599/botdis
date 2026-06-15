@@ -1,0 +1,16 @@
+{
+  "name": "channel-factory",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "login": "node login.js"
+  },
+  "dependencies": {
+    "telegram": "^2.26.0",
+    "mongodb": "^6.0.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.0",
+    "input": "^1.0.1"
+  }
+}
